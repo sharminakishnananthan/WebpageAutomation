@@ -1,0 +1,37 @@
+{
+  "name": "cypress_automation",
+  "version": "1.0.0",
+  "description": "cypress_webpage_automation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sharminakishnananthan/CypressGit.git"
+  },
+  "keywords": [
+    "cypress",
+    "web",
+    "page",
+    "automation"
+  ],
+  "author": "sharmina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sharminakishnananthan/CypressGit/issues"
+  },
+  "homepage": "https://github.com/sharminakishnananthan/CypressGit#readme",
+  "dependencies": {
+    "cypress": "^9.5.1"
+  },
+  "devDependencies": {
+    "eslint-plugin-cypress": "^2.12.1"
+  },
+  
+  "extends":[
+      "plugin:cypress/recommended"
+  ]
+  
+}
